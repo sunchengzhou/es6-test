@@ -12,7 +12,7 @@ module.exports={
         contentBase:"./public",
         historyApiFallback:true,
         inline:true,
-        port:8080
+        port:9000
     },
     module: {
         rules: [
