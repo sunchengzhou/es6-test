@@ -4,8 +4,7 @@
   "description": "use webpack to finish a project to test es6",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",

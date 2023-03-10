@@ -3,7 +3,7 @@ const webpack=require("webpack");
 const HtmlWebpackPlugin=require("html-webpack-plugin");
 module.exports={
     devtool:"eval-source-map",
-    entry:path.resolve(__dirname+"/app/main.js"),
+    entry:path.resolve(__dirname+"/src/index.js"),
     output:{
         path:path.resolve(__dirname+"/public"),
         filename:"bundle.js"
@@ -42,7 +42,7 @@ module.exports={
     },
     plugins:[
         new HtmlWebpackPlugin({
-            template:__dirname+"/app/index.html"
+            template:__dirname+"/src/index.html"
         }),
         new webpack.HotModuleReplacementPlugin()
     ]  
