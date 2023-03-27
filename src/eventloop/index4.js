@@ -16,8 +16,3 @@ setTimeout(() => {
     console.log('D');
   });
   console.log('E');
-
-  // 宏任务队列  A  B  压入
-  // 微任务队列  D
-  // 主流程  C E
-  // 执行顺序   主流程 =》 微任务 =》 宏任务 C E  D  A   B
